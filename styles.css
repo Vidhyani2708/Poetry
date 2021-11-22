@@ -132,3 +132,38 @@ font-weight: 300;
 line-height: 60px;
 text-shadow: 0 0 5px #6dd4ee, 0 0 7px #0000FF;
 }
+@media screen and (max-width: 600px){
+    #navbar{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .uls li a{
+      font-size:20px;
+      padding:10px;
+    }
+    body{
+      background:url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGlicmFyeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+      background-repeat:no-repeat ;
+  }
+    .heading{
+      font-size: 2rem;
+      margin:170px 0;
+  }
+    .timeline ul li:nth-child(even) div{
+      left:50px;
+      transform:translate3d(-255px,0px,0px);
+    }
+    .timeline ul li:nth-child(odd) div{
+      left:-450px;
+      transform: translate3d(248px,0px,0px);
+    }
+   .timeline li{
+     position:relative;
+      width:6px;
+      margin: 0 auto;
+      background : pink;
+      padding-top:50px;
+  }
+  }
+  
