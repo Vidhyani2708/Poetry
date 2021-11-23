@@ -150,13 +150,17 @@ text-shadow: 0 0 5px #6dd4ee, 0 0 7px #0000FF;
       font-size: 2rem;
       margin:170px 0;
   }
+    .timeline ul li div{
+      width:200px;
+      background:rgba(176, 56, 130,0.774);
+    }
     .timeline ul li:nth-child(even) div{
       left:50px;
-      transform:translate3d(-255px,0px,0px);
+      transform:translate3d(-160px,0px,0px);
     }
     .timeline ul li:nth-child(odd) div{
       left:-450px;
-      transform: translate3d(248px,0px,0px);
+      transform: translate3d(340px,0px,0px);
     }
    .timeline li{
      position:relative;
