@@ -151,8 +151,11 @@ text-shadow: 0 0 5px #6dd4ee, 0 0 7px #0000FF;
       margin:170px 0;
   }
     .timeline ul li div{
-      width:200px;
+      width:135px;
       background:rgba(176, 56, 130,0.774);
+    }
+    .timeline ul li div a{
+        font-size: 18px;
     }
     .timeline ul li:nth-child(even) div{
       left:50px;
