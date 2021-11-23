@@ -54,3 +54,30 @@ p{
     text-align: right;
     font-weight:900;
 }
+@media screen and (max-width: 600px){
+    #navbar{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .uls{
+        padding:0px;
+    }
+    .uls li a{
+      font-size:20px;
+  }
+  h2{
+    font-size:45px;
+  }
+  .poem{
+    font-size:20px;
+    line-height:70px;
+    padding:0;
+  }
+  .name{
+    font-size:20px;
+   text-align:right;
+    margin-right:5px;
+    padding-top:0px;
+  }
+    }
