@@ -56,3 +56,28 @@ h2{
         padding:50px;
         text-shadow: 0 0 20px #FF0000, 0 0 22px #0000FF;
 }
+@media screen and (max-width: 600px){
+    #navbar{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .uls{
+        padding:0px;
+    }
+    .uls li a{
+      font-size:20px;
+      padding:10px;
+    }
+    body{
+      background:url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGlicmFyeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  }
+  h2{
+    font-size:60px
+  }
+  .container p{
+    font-size:30px;
+    padding:20px;
+    line-height:50px;
+  }
+}
