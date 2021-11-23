@@ -151,7 +151,7 @@ text-shadow: 0 0 5px #6dd4ee, 0 0 7px #0000FF;
       margin:170px 0;
   }
     .timeline ul li div{
-      width:135px;
+      width:160px;
       background:rgba(176, 56, 130,0.774);
     }
     .timeline ul li div a{
@@ -159,11 +159,11 @@ text-shadow: 0 0 5px #6dd4ee, 0 0 7px #0000FF;
     }
     .timeline ul li:nth-child(even) div{
       left:50px;
-      transform:translate3d(-160px,0px,0px);
+      transform:translate3d(-140px,0px,0px);
     }
     .timeline ul li:nth-child(odd) div{
       left:-450px;
-      transform: translate3d(340px,0px,0px);
+      transform: translate3d(360px,0px,0px);
     }
    .timeline li{
      position:relative;
