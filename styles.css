@@ -138,6 +138,9 @@ text-shadow: 0 0 5px #6dd4ee, 0 0 7px #0000FF;
       justify-content: center;
       align-items: center;
     }
+    .uls{
+        padding:0px;
+    }
     .uls li a{
       font-size:20px;
       padding:10px;
