@@ -55,10 +55,8 @@ text-shadow: 0 0 11px #FF0000, 0 0 13px #0000FF;
    margin:50px;
    text-align: center;
 }
-.div1{
-    margin:100px;
-    margin-top:10px;
-    margin-bottom:0px;
+.category{
+    padding:0px;
 }
 *{
     margin:0;
@@ -118,9 +116,8 @@ text-shadow: 0 0 11px #FF0000, 0 0 13px #0000FF;
    text-align: center;
 }
 .div1{
-    margin:100px;
-    margin-top:10px;
-    margin-bottom:0px;
+    margin:100px auto;
+   
 }
 @media screen and (max-width: 600px){
     #navbar{
